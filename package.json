@@ -2,6 +2,10 @@
   "name": "get-discord-identify-api",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "debug": "$env:DEBUG='circle-manager-api:*';node ./src/index.js"
+  },
   "repository": "https://github.com/azisaba/get-discord-identify-api.git",
   "author": "huda0209",
   "license": "MIT",
